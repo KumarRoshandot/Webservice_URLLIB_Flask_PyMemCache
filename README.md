@@ -36,6 +36,10 @@ The Purpose is to create a webservice app which upon querying should return data
 
     --->  This is a package name synk_test inside which has the file to return tree data.
     
+    
+    
+ Use Unix Env to execute
+    
     --->  to fecth data URLLIB has been used 
     
     --->  If any invalid URL is used then using exception handling it will return Error Message which eventually be returned to calling program.
