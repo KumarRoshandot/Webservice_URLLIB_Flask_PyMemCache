@@ -34,11 +34,7 @@ The Purpose is to create a webservice app which upon querying should return data
   
 5) URL Data 
 
-    --->  This is a package name synk_test inside which has the file to return tree data.
-    
-    
-    
- Use Unix Env to execute
+    --->  This is a package name synk_test inside which has the file to return tree data
     
     --->  to fecth data URLLIB has been used 
     
@@ -54,3 +50,9 @@ The Purpose is to create a webservice app which upon querying should return data
       ---> It also used pymemcache for caching the data , so that for next call it can fetch data from cache instead of again going to URL Data.
       
       --->  If there is no record found in cache then it will call URL Data ( from synk_task Package ) and will return it to web user and also cache it .
+      
+      
+      
+      
+      
+   Use Unix Env to execute
