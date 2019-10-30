@@ -14,7 +14,7 @@ d) pymemcache
 # Execution
 a) Place 'package_dep_webservice.py' and synk_task folder in one location and run:-  python package_dep_webservice.py
 
-b) Upon Running open browser and run 'http://127.0.0.1:5000/dependencies/<PACKAGE NAME>/<VERSION>' e.g.. http://127.0.0.1:5000/dependencies/express/latest
+b) Upon Running open browser and run 'http://127.0.0.1:5000/dependencies/PACKAGE NAME/VERSION' e.g.. http://127.0.0.1:5000/dependencies/express/latest
 
 
 The Purpose is to create a webservice app which upon querying should return data.
